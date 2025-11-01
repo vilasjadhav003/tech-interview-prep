@@ -57,12 +57,7 @@ public class KEmptySlotsUsingTreeSet {
         int[] bulbs = {6, 2, 9, 4, 1, 8, 3, 7, 5, 10};
         int k = 1;
 
-        // Run debug to see the step-by-step process
         int dayDebug = kEmptySlots(bulbs, k);
-        System.out.println("Earliest day (debug): " + dayDebug);
-
-        // Run the clean version as well
-        int day = kEmptySlots(bulbs, k);
-        System.out.println("Earliest day (clean): " + day);
+        System.out.println("Earliest day : " + dayDebug);
     }
 }
